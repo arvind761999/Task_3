@@ -127,9 +127,20 @@
   }
 }
 
-.cnt-6{
+.cnta-6{
     height: 20vh;
     
+}
+
+@media screen  and (max-width: 768px){
+  
+  .cnt .cnta-6{
+    text-align: center;
+  }
+  .cnt .cnta-6 .I4{
+    text-align: center;
+  }
+
 }
 
 
@@ -247,6 +258,14 @@
 
 
 /*  SEction-3 */
+
+.cnt-3{
+  background-image: url("../image/I17.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-blend-mode: luminosity; */
+  /* opacity: 0.5; */
+}
 
 @media only screen and (max-width: 768px){
   .cnta-3{
